@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Copper House Garden</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&display=swap');
+
+    
+    h1, h2, h3 { font-family: 'Playfair Display', serif; }
+    p, button { font-family: "DM Sans", sans-serif; }
+    
+    
+    .hero {
+      background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0)), 
+                  url('/Users/florencecochrane/Documents/Documents - Florence’s MacBook Pro/VS Code/The Copper House Garden/images/path.jpg') center/cover;
+      min-height: 600px;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+
+<!-- Main site-->
+</head>
+<body class="bg-gray-60">
+  
+  <!-- Hero Section -->
+  <section class="hero flex items-center justify-center text-white h-dvh gap-2">
+    <div class="text-center px-4 max-w-4xl">
+              <img src='/Users/florencecochrane/Documents/Documents - Florence’s MacBook Pro/VS Code/The Copper House Garden/images/Favicon white.svg' alt="The Copper House Garden Logo" class="w-full h-full">
+      <h1 class="text-xl md:text-2xl mb-8 text-pretty text-white">A modern English flower garden</h1>
+
+      <div class="flex flex-col gap-2 place-items-center">
+        <a href="#tours" class="w-fit border px-6 py-3 text-white bg-gray-800 text-white font-semibold transition-colors hover:bg-gray-700 rounded-sm text-xl">Visit</a>
+        <a href="#courses" class="w-fit px-2 py-2 text-white font-extralight transition-colors hover:bg-gray-700 rounded-sm text-xl">Learn</a>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- About us Section -->
+  <section id="about" class="py-16 px-6 md:px-16 bg-gray-100 flex flex-col md:flex-row gap-12 items-center md:items-start">
+
+    <div class="aspect-square overflow-hidden w-full md:w-1/2 max-h-96 rounded-lg shadow-sm">
+        <img class="object-cover w-full h-full" src='/Users/florencecochrane/Documents/Documents - Florence’s MacBook Pro/VS Code/The Copper House Garden/images/house.jpg' alt="The Copper House">
+    </div>
+
+    <div class="flex flex-col gap-4 items-center md:items-start text-center md:text-left"> 
+        <h2 class="text-lg text-gray-600 uppercase tracking-wide">About us</h2>
+        <p class="text-gray-900 max-w-2xl text-pretty">
+            Set in the Garden of England, The Copper House Garden sits equidistant between the gardens of 
+            Great Dixter and Sissinghurst Castle. <br> <br>
+            
+            The house, a modernist pavilion built in 2015, is surrounded by a 
+            contemporary English flower garden. Mixed shrub and herbaceous borders, 
+            white with a touch of autumn pink on the northern and eastern sides and 
+            intense jewel colours to the south and west. A small orchard and wildflower 
+            meadow to the west of the house lead down a steep incline to a woodland area 
+            with interlinking ponds. The garden is planted successionally to provide colour 
+            through the seasons.
+        </p>
+        
+        <button class="w-fit px-6 py-2 bg-gray-800 text-white font-medium transition-colors hover:bg-gray-700 rounded-sm"
+         onclick="window.location.href='mailto:florence_cochrane@outlook.com?';">
+            Contact us
+        </button>
+    </div>
+
+</section>
+
+  <!-- Guided tours Section -->
+  <section id="tours" class="py-16 px-6 md:px-16 bg-white flex flex-col md:flex-row-reverse gap-12 items-center md:items-start">
+
+    <div class="aspect-square overflow-hidden w-full md:w-1/2 max-h-96 rounded-lg shadow-sm">
+        <img class="object-cover w-full h-full" src='/Users/florencecochrane/Documents/Documents - Florence’s MacBook Pro/VS Code/The Copper House Garden/images/foreground.jpg' alt="Succession planting">
+    </div>
+
+    <div class="flex flex-col gap-4 items-center md:items-start text-center md:text-left"> 
+        <h2 class="text-lg text-gray-600 uppercase tracking-wide">Guided tours</h2>
+        <p class="text-gray-900 max-w-2xl text-pretty">
+            Private guided tours can be arranged via email. We recommend reserving at least an hour for a standard tour. Unfortunately, 
+            the garden is not wheelchair accessible. Please get in touch for more information.
+        </p>
+        
+        <button class="w-fit px-6 py-2 bg-gray-800 text-white font-medium transition-colors hover:bg-gray-700 rounded-sm"
+         onclick="window.location.href='mailto:florence_cochrane@outlook.com?subject=Guided%20Tour%20Enquiry';">
+            Enquire
+        </button>
+    </div>
+
+</section>
+
+
+<!-- Courses -->
+<section id="courses" class="py-16 px-6 md:px-16 bg-gray-100 flex flex-col md:flex-row gap-12 items-center md:items-start">
+
+    <div class="aspect-square overflow-hidden w-full md:w-1/2 max-h-96 rounded-lg shadow-sm">
+        <img class="object-cover w-full h-full" src='/Users/florencecochrane/Documents/Documents - Florence’s MacBook Pro/VS Code/The Copper House Garden/images/courtyard.jpg' alt="The Copper House">
+    </div>
+
+    <div class="flex flex-col gap-4 items-center md:items-start text-center md:text-left"> 
+        <h2 class="text-lg text-gray-600 uppercase tracking-wide">Monthly evening course</h2>
+        <p class="text-gray-900 max-w-2xl text-pretty">
+            This year we will be running a walk & talk succession planting course. 
+            Run monthly on Thursday evenings across 6 sessions, each will involve a 1.5hr guided walk. We'll be covering topics 
+            such as seasonal planting, plant combinations, staking and propagation. 6 places available.
+        </p>
+        <p class="text-left text-gray-600 max-w-2xl text-pretty">
+            2026 course dates: 23-Apr, 28-May, 25-Jun, 27-Aug & 24-Sep.
+        </p>
+        <div class="flex flex-row gap-2">
+            <h3 class="text-sm font-extralight mb-2 bg-green-200 px-2 py-1 rounded-lg font-sans text-green-700">£90 for 6 x 1.5hr sessions</h3>
+            <h3 class="text-sm font-extralight mb-2 bg-green-200 px-2 py-1 rounded-lg font-sans text-green-700">Thursday evenings</h3>
+        </div>
+        
+        <button class="w-fit px-6 py-2 bg-gray-800 text-white font-medium transition-colors hover:bg-gray-700 rounded-sm"
+         onclick="window.location.href='mailto:florence_cochrane@outlook.com?subject=Thursday%20Evening%20Planting%20Course';">
+            Reserve a place
+        </button>
+    </div>
+
+</section>
+
+<!--Press-->
+<section id="press" class="bg-white py-8">
+      <h2 class="text-2xl font-semibold text-center mb-4 text-gray-900">Recently featured</h2>
+
+        <!--Press card section-->
+        <div class="py-2 px-4 flex flex-wrap justify-center gap-8">
+            
+            <!--Press card 1-->
+            <div>
+                <div class="bg-white rounded-sm shadow-md overflow-hidden hover:shadow-xl transition-shadow max-w-xl max-h-72">
+                    <img src='/Users/florencecochrane/Documents/Documents - Florence’s MacBook Pro/VS Code/The Copper House Garden/images/GW.jpg' alt="Gardener's World" class="w-full h-full object-cover">
+                </div>  
+                <div class="p-6 bg-white">
+                        <h3 class="text-2xl font-medium mb-2 text-gray-900">Gardeners' World</h3>
+                        <p class="text-gray-600 mb-4 leading-relaxed">Episode 28, 2025</p>
+                </div>
+            </div>
+            <!--Press card 2-->
+            <div>
+                <div class="bg-white rounded-sm shadow-md overflow-hidden hover:shadow-xl transition-shadow max-w-xl max-h-72">
+                    <img src='/Users/florencecochrane/Documents/Documents - Florence’s MacBook Pro/VS Code/The Copper House Garden/images/national-garden-scheme-logo-2022-hospiceuk.jpeg' alt="Gardener's World" class="w-full h-full object-cover">
+                </div>  
+                <div class="p-6 bg-white">
+                        <h3 class="text-2xl font-medium mb-2 text-gray-900">National Garden Scheme</h3>
+                        <p class="text-gray-600 mb-4 leading-relaxed"><a href="https://ngs.org.uk/gardens/the-copper-house-tn1/">Next opening: 6th September 2026</a></p>
+                </div>
+            </div>
+        </div>
+
+</section>
+
+<!-- Instagram Section -->
+  <section class="bg-gray-100 py-20 px-4">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-2xl font-semibold text-center mb-4 text-gray-900">Find us on Instagram</h2>
+      <p class="text-gray-600 mb-8 text-pretty leading-relaxed">Follow our latest updates and behind-the-scenes content</p>
+      <a href="https://www.instagram.com/thecopperhousegarden/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-3 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-semibold px-8 py-4 rounded-lg transition-all transform hover:scale-105">
+        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+        </svg>
+        @thecopperhousegarden
+      </a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-gray-900 text-white py-20 px-4">
+    <div class="max-w-4xl mx-auto flex flex-col items-center">
+      <h2 class="text-4xl font-bold text-center mb-4">Get In Touch</h2>
+      <p class="text-center text-gray-300 mb-4 text-pretty">If you have questions or would like to visit, we'd love to hear from you.</p>
+      
+      <button class="bg-white hover:bg-gray-800 text-gray-900 font-medium px-6 py-2 rounded-md transition-colors"
+         onclick="window.location.href='mailto:florence_cochrane@outlook.com';">
+         Email us
+      </button>
+
+      <div class="mt-12 pt-12 border-t border-gray-800 text-center w-full">
+        <p class="text-gray-400">&copy; 2025 The Copper House Garden. All rights reserved.</p>
+      </div>
+    </div>
+</section>
+
+
+  Old code
+  <!-- Courses Section
+  <section id="courses" class="py-20 px-4 bg-gray-100">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-4xl font-semibold text-center mb-4 text-gray-900">Upcoming courses</h2>
+      <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto text-pretty">If you'd like to visit the garden, we run a few courses each year.</p>
+      
+      <div class="grid place-content-center">
+        
+        Course Card 1
+        <div class="bg-white rounded-sm shadow-md overflow-hidden hover:shadow-xl transition-shadow max-w-xl">
+          <img src='/Users/florencecochrane/Documents/Documents - Florence’s MacBook Pro/VS Code/The Copper House Garden/images/43_MC_TCH_0725_CLife_43.jpg' alt="Succession planting" class="w-full h-48 object-cover">
+          <div class="p-6">
+                <div class="flex flex-row justify-between items-center">
+                <h3 class="text-sm font-extralight mb-2 font-sans text-gray-700">19th August 2026</h3>
+                <h3 class="text-sm font-extralight mb-2 bg-gray-100 px-2 py-1 rounded-lg font-sans text-gray-700">1.5 hours</h3>
+                </div>
+                <h3 class="text-2xl font-medium mb-2 text-gray-900">Title</h3>
+            <p class="text-gray-600 mb-4 leading-relaxed">A brief description of what the course involves. 
+                A 2-hour exploration of succession planting. A really long description next to the shorter one.</p>
+            <div class="flex items-center justify-between">
+              <span class="text-blue-600 font-semibold text-lg">£15</span>
+              <button class="bg-gray-900 hover:bg-gray-800 text-white font-medium px-6 py-2 rounded-lg transition-colors"
+              onclick="window.location.href='mailto:florence_cochrane@outlook.com';">Register</button>
+            </div>
+          </div>
+        </div>
+        </div>
+  </section> -->
+
+</body>
+</html>
